@@ -9,6 +9,7 @@ const DataRestaurant = [{
         Food_Rate: 4,
         Date: "10/10/2020",
         Notes: "note KFC...",
+        Name_Reporter: 'Tran Quoc Viet',
     },
     {
         Restaurant_Image: 'img/CongCF.jpg',
@@ -21,6 +22,7 @@ const DataRestaurant = [{
         Food_Rate: 5,
         Date: "10/10/2020",
         Notes: "note CF 1...",
+        Name_Reporter: 'Tran Quoc Viet',
     },
     {
         Restaurant_Image: 'img/PizzaHut.jpg',
@@ -33,6 +35,7 @@ const DataRestaurant = [{
         Food_Rate: 3,
         Date: "10/10/2020",
         Notes: "Pizza hut something",
+        Name_Reporter: 'Tran Quoc Viet',
     },
     {
         Restaurant_Image: 'img/KingBBQ.jpg',
@@ -45,6 +48,7 @@ const DataRestaurant = [{
         Food_Rate: 4,
         Date: "10/10/2020",
         Notes: "A Restaurant of King BBQ in Nam Dinh City",
+        Name_Reporter: 'Tran Quoc Viet',
     }
 ]
 

@@ -42,7 +42,8 @@ $(document).ready(function() {
             Price: $('#Price').val(),
             Date: $('#Date').val(),
             Notes: $('#Notes').val(),
-            Restaurant_Image: 'img/res.png'
+            Name_Reporter: $('#Name_Reporter').val(),
+            Restaurant_Image: 'img/res.png',
         }
         AddRes("I-RateRes", rate)
         return false
@@ -86,6 +87,7 @@ $(document).ready(function() {
                     <h4>Average Rating: <span>${parseFloat((Number(Restaurant_Detail.Food_Rate) + Number(Restaurant_Detail.Clean_Rate) + Number(Restaurant_Detail.Service_Rate))/3).toFixed(1)}</span><i class="fa fa-star fa_custom"></i></h4>
                     <h4 class="card-text">Average Price: ${Restaurant_Detail.Price}<i class="fa fa-usd" aria-hidden="true"></i></h4>
                     <p class="card-text">Note: ${Restaurant_Detail.Notes}</p>
+                    <p class="card-text">Reporter Name: ${Restaurant_Detail.Name_Reporter}</p>
                 </div>
                 <div class="modal-footer">
                     <p class="card-text">Rate time:${Restaurant_Detail.Date}</p>
